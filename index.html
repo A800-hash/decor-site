@@ -1,51 +1,104 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="فنون الرياض - خدمات ديكور راقية تشمل دهانات، ورق جدران، ديكور شاشات، باركيه، عزل مائي والمزيد في مدينة الرياض.">
-  <title>فنون الرياض</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ديكورات الرياض</title>
   <style>
-    body { font-family: 'Arial', sans-serif; background-color: #f8f8f8; margin: 0; padding: 0; }
-    header { background-color: #1e1e1e; color: white; padding: 20px; text-align: center; }
-    .section { padding: 30px 20px; max-width: 900px; margin: auto; background-color: white; margin-top: 20px; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
-    .gallery img { width: 100%; border-radius: 8px; margin-bottom: 15px; }
-    .contact { text-align: center; margin-top: 30px; }
-    .btn { display: inline-block; padding: 12px 25px; background-color: #4CAF50; color: white; border-radius: 8px; text-decoration: none; font-weight: bold; }
-    footer { text-align: center; padding: 20px; color: #777; }
+    body {
+      font-family: 'Tahoma', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    ul {
+      list-style: square inside;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    a {
+      color: #27ae60;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>فنون الرياض</h1>
-    <p>للديكورات الراقية في مدينة الرياض</p>
+    <h1>ديكورات الرياض</h1>
+    <p>لحلول الديكورات الراقية في مدينة الرياض</p>
   </header>
-  <div class="section">
+
+  <section>
     <h2>خدماتنا</h2>
     <ul>
       <li>دهانات داخلية وخارجية بجودة عالية</li>
-      <li>عزل مائي لحماية تدوم</li>
-      <li>ورق جدران بأحدث التصاميم</li>
-      <li>ديكور شاشات بلازما بتصاميم مبتكرة</li>
-      <li>مناظر ثلاثية الأبعاد (3D)</li>
-      <li>باركيه وفوم بأناقة مميزة</li>
-      <li>ألواح استيل بتصاميم عصرية</li>
-      <li>ديكورات جبسية وخلفيات شاشات</li>
-      <li>بدائل الرخام، الخشب، الشبورد، والحجر</li>
+      <li>عزل مائي وحراري</li>
+      <li>ديكور جدران وبراويز وأفكار إبداعية</li>
+      <li>جبس بورد وأسطح إضاءة مخفية</li>
+      <li>تصميم وتنفيذ باركيه بأجود الأنواع</li>
+      <li>تصميم 3D للمجالس والجدران</li>
+      <li>ديكورات خشبية وتشطيبات فاخرة</li>
+      <li>جدارات الشرائح الخشبية والرخامية</li>
     </ul>
-    <p><strong>يتم تنفيذ جميع الأعمال على يد خبير متمرس في مجال الدهانات والديكورات بدقة واحترافية عالية.</strong></p>
-  </div>
-  <div class="section contact">
+    <strong>ننفذ جميع الأعمال داخل مدينة الرياض بدقة واحترافية عالية</strong>
+  </section>
+
+  <section>
+    <h2>معرض الصور</h2>
+    <div class="gallery">
+      <img src="images/majlis1.jpg" alt="ديكور" />
+      <img src="images/majlis2.jpg" alt="ديكور" />
+      <img src="images/majlis3.jpg" alt="ديكور" />
+      <img src="images/majlis4.jpg" alt="ديكور" />
+      <img src="images/majlis5.jpg" alt="ديكور" />
+      <img src="images/majlis6.jpg" alt="ديكور" />
+    </div>
+  </section>
+
+  <section>
     <h2>تواصل معنا</h2>
-    <p>📞 الاتصال: <strong>0533825929</strong></p>
-    <p>📱 واتساب: <a href="https://wa.me/966533825929" class="btn" target="_blank">راسلنا على واتساب</a></p>
-  </div>
+    <p>الاتصال: <strong>0533825929</strong></p>
+    <p>واتساب: <a href="https://wa.me/966533825929" target="_blank">راسلنا على واتساب</a></p>
+  </section>
+
   <footer>
-    &copy; 2025 فنون الرياض. جميع الحقوق محفوظة.
- </footer>
-<section class="فصل">
-  <h2>📸 نماذج من أعمالنا</h2>
-  <img src="الصور/majlis1.jpg" alt="تصميم مجلس فاخر" style="width:100%; max-width:600px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin: 20px auto; display: block;">
-</section>
+    &copy; ديكورات الرياض، جميع الحقوق محفوظة 2025
+  </footer>
+
 </body>
 </html>
